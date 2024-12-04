@@ -1,2 +1,5 @@
 # Final-Project-CSCI_1070
-The files for my final project for SLU's CSCI 1070 course.
+
+Since I will be using the "Mobile Device Usage and User Behavior" dataset from Kaggle, my predictive variable is the user's behavior class, which ranges from 1 to 5 and classifies the user's behavior patterns; this essentially boils down to how heavy of a device user they are. Because the predictive variable is categorical, I will utilize KNN, logistic regression, and decision trees to predict and model this dataset.
+A problem arises when we examine the columns. They are user ID, device model, operating system, app usage time, screen on time, battery drain, number of apps installed, data usage, age, gender, and user behavior class. Clearly, there exists a lot of possibility for multicolinearity in this dataset, as app usage time and screen time are tightly correlated. As such, measures will have to be taken to avoid in order to preprocess and clean up this dataset to avoid multicolinearity.
+Therefore, to create an effective model to predict user behavior class, a combination of all of the above must be used, with trial and error to pick the single best algorithm or ML model if necessary.
